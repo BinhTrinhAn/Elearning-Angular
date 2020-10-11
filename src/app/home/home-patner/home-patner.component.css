@@ -1,0 +1,23 @@
+.patner__instructor {
+    height: 350px;
+}
+
+
+.patner__instructor__content {
+    align-items: center;
+    margin: 100px auto;
+}
+
+.patner__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.patner__business {
+    background-color: #003640;
+}
+
+.patner__video {
+    height: 350px;
+}

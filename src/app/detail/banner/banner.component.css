@@ -1,0 +1,29 @@
+.Bestseller { 
+    border-radius: 4px;
+    display: inline-block;
+    padding: .2rem .5rem;
+    white-space: nowrap;
+    background-color: #ffe799;
+    color: #593d00;
+}
+
+.banner__link a {
+    font-family: 'SF Pro Display',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02rem;
+    font-size: 0.8rem;
+    color: #8ed1dc;
+    text-decoration: none;
+}
+.banner__detail h5{
+    font-size: 2rem;
+    margin-bottom: .8rem;
+    width: 60%;
+}
+.banner_description {
+    font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-weight: 400;
+    line-height: 1.4;
+    width: 60%;
+}

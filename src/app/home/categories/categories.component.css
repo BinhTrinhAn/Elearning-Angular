@@ -1,0 +1,31 @@
+h5{
+    font-family: 'SF Pro Display',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02rem;
+    font-size: 1.7rem;
+}
+
+.categories__item a{
+    font-family: 'SF Pro Display',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #1e1e1c;
+}
+.categories__topic {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1e1e1c;
+    text-decoration: none;
+    line-height: 1.4;
+}
+.categories__option p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0f7c90;
+    text-decoration: none;
+    line-height: 1;
+}
+

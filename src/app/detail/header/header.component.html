@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-sm navbar-light my-2">
+    <a href="/" class="header--flex-middle--2Xqjv header--logo--bdAod"><img src="../../../assets/img/logo-coral.svg"
+            alt="Udemy" width="110" height="32"></a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse header__content mx-0" id="collapsibleNavId">
+        <ul class="navbar-nav  mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Categories</a>
+            </li>
+        </ul>
+        <div class="header__search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" placeholder="Search for anything...">
+        </div>
+        <a class="nav-link" href="#">Udemy for Business</a>
+        <a class="nav-link" href="#">Teach on Udemy</a>
+        <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <ng-container *ngIf="isLogin; else notLogin">
+            <a class="nav-link" href="#">Hi! {{userInfo.taiKhoan}}</a>
+            <button class="butn-outline" data-toggle="modal" (click)="dangXuat()">Log out</button>
+        </ng-container>
+        <ng-template #notLogin>
+            <button class="butn-outline" data-toggle="modal" data-target="#login">Log in</button>
+            <button class="butn" data-toggle="modal" data-target="#signup">Sign Up</button>
+        </ng-template>
+    </div>
+</nav>
+

@@ -1,0 +1,72 @@
+.banner {
+    background-color: #1e1e1c;
+    height: 450px;
+}
+
+#header {
+    width: 400px;
+    height: 750px;
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+    margin-left: 1200px;
+    border: 1px solid #1e1e1c;
+} 
+
+#header .cart__price h5{
+    font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.8rem;
+}
+
+#header .cart__price span{
+    line-height: 1;
+    padding: .4rem 0;
+    margin-right: .8rem;
+    white-space: nowrap;
+}
+
+#header .btn_cart__price{
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    background-color: #ec5252;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn_cart__buy {
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #2896a9;
+    cursor: pointer;
+    width: 300px;
+    background-color: white;
+    height: 50px;
+    color: #2896a9;
+    font-weight: bold;
+}
+.cart__money_back  {
+    text-align: center;
+}
+
+.cart__description ul li {
+    list-style: none;
+}
+
+.btn_cart__apply {
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    background-color: white;
+    height: 50px;
+    color: #2896a9;
+    font-weight: bold;
+}

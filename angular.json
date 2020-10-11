@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "elearning"
+    }
+  },
+  "defaultProject": "elearning",
+  "cli": {
+    "analytics": "4496de85-1ac7-4c6f-a764-d773821913db"
+  }
 }

@@ -1,0 +1,43 @@
+.footer__language select{
+    height: 2.5rem;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #989586;
+    cursor: pointer;
+    display: block;
+    padding: 0rem 0rem 0 1.2rem;
+    width: 100%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.footer__language {
+    padding-right: 40px;
+}
+
+.footer__contact li{
+    list-style: none;
+    
+}
+
+.footer__contact ul li a {
+    text-decoration: none;
+    color: #0f7c90;
+    line-height: 2;
+    font-size: 0.9rem;
+}
+
+.footer__terms {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer__terms p {
+    font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 0.8rem;
+    color: #73726c;
+}
